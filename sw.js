@@ -1,5 +1,5 @@
 // 今夜聊什么 – offline cache. Bump VERSION whenever index.html changes.
-const VERSION = "tt-v10";
+const VERSION = "tt-v11";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/apple-touch-icon.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));

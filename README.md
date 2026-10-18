@@ -117,4 +117,4 @@ The page is an iPhone-style web app (Apple HIG: tab bar, large titles, 44pt touc
 
 - Upload **index.html, manifest.webmanifest, sw.js, icons/, logo/, README.md, src/** to the repository root.
 - On iPhone: open https://shentuyuxia.github.io/Dialogs/ in Safari → Share → **Add to Home Screen**. It opens full screen, with no browser bar.
-- After the first visit it also works offline (sw.js). When you change index.html, raise `VERSION` in sw.js (tt-v10 → tt-v11) so phones pick up the new version.
+- After the first visit it also works offline (sw.js). When you change index.html, raise `VERSION` in sw.js (tt-v11 → tt-v12) so phones pick up the new version.
