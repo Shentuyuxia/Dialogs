@@ -24,9 +24,9 @@ head = """<!doctype html>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="今夜聊什么">
+<meta name="apple-mobile-web-app-title" content="话题扭蛋">
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="description" content="今夜聊什么 · 多语派对话题签 / Tonight's Talk – party conversation cards in Chinese, English, German and Portuguese">
+<meta name="description" content="话题扭蛋 · 多语派对聊天话题 / Topic Capsules – party conversation topics in Chinese, English, German and Portuguese">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;-webkit-text-size-adjust:100%}img{max-width:100%}[hidden]{display:none!important}</style>
 """
 i = s.index('<div class="shell" id="app">')
